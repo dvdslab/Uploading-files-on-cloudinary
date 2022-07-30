@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "description": "with the aid of cloudinary and the package multer, I was able to perform CRUD operations on files of different extentions.",
+  "main": "app.js",
+  "dependencies": {
+    "cloudinary": "^1.30.1",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.7",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvdslab/Uploading-files-on-cloudinary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dvdslab/Uploading-files-on-cloudinary/issues"
+  },
+  "homepage": "https://github.com/dvdslab/Uploading-files-on-cloudinary#readme"
+}
